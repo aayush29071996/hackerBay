@@ -13,6 +13,7 @@
     "http-status": "^0.2.3",
     "image-downloader": "^3.3.0",
     "jsonwebtoken": "^8.1.0",
+    "mocha": "^4.0.1",
     "moment": "^2.19.3",
     "mongoose": "^4.13.6",
     "mongoose-auto-increment": "^5.0.1",
@@ -25,7 +26,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Aayush Patel",
   "license": "ISC"
